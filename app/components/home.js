@@ -11,7 +11,8 @@ class Home extends React.Component {
           title="btnAbout"
           onPress={() => this.props.navigation.navigate("About")}
         >
-          Go to About
+          Go to About   
+          
         </Button> 
       </View>
     );
