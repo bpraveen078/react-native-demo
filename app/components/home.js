@@ -12,11 +12,11 @@ class Home extends React.Component {
           onPress={() => this.props.navigation.navigate("About")}
         >
           Go to About   
-          
+
 
         </Button> 
       </View>
-    );
+    ); 
   }
 }
 
