@@ -5,8 +5,8 @@ class Home extends React.Component {
   render() {
     return (
       <View>
-        <Text>Home</Text>
-        
+        <Text>Home</Text> 
+
         <Button
           title="btnAbout"
           onPress={() => this.props.navigation.navigate("About")}
