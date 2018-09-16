@@ -13,6 +13,7 @@ class Home extends React.Component {
         >
           Go to About   
           
+
         </Button> 
       </View>
     );
