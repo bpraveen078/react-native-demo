@@ -1,22 +1,21 @@
 import React from 'react';
-import {createStackNavigator,createDrawerNavigator,createTabNavigator} from 'react-navigation';
+import {createStackNavigator,createDrawerNavigator,DrawerNavigator,createTabNavigator} from 'react-navigation';
 import Home from './components/home';
+import Home1 from './components/home1';
 import About from './components/about';
 import DrawerScreen from './draw-navigator';
-
-const AppNavigator=createDrawerNavigator({
-    About:{screen:About}  , 
+ 
+const AppNavigator=DrawerNavigator ({
     Home:{screen:Home},  
-},
-{
-    contentComponent:DrawerScreen
+    About:{screen:About} ,  
 });
 // const AppNavigator=createTabNavigator({
-//     About:{screen:About}  ,
+//     About:{screen:About}  , 
 //     Home:{screen:Home},  
 // });
-// const AppNavigator=createStackNavigator({
+// const AppNavigator=createStackNavigator({ 
 //     About:{screen:About}  ,
-//     Home:{screen:Home},
-// });
+//     Home:{screen:Home}, 
+//     Home1:{screen:Home1},
+// }); 
 export default AppNavigator; 

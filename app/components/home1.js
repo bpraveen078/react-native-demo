@@ -6,7 +6,7 @@ class Home1 extends React.Component {
     let drawLabel = "Home1";
     let drawIcon = () => {
       <Button title="test" />;
-    };
+    }; 
     return { drawLabel, drawIcon };
   };
   render() {
@@ -17,7 +17,7 @@ class Home1 extends React.Component {
           title="btnAbout"
           onPress={() => this.props.navigation.navigate("About")}
         >
-          Go to About 
+          Go to About
         </Button>
       </View>
     );

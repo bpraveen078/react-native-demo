@@ -8,16 +8,11 @@ class About extends React.Component {
         <Text>About</Text>
         <Button
           title="brnHome"
-          onPress={() => this.props.navigation.navigate("Home")}
+          onPress={() => this.props.navigation.navigate("Home")} 
         > 
           Go to About
         </Button>
-        <Button
-          title="brnHome"
-          onPress={() => this.props.navigation.navigate("Home")}
-        > 
-          Go to About
-        </Button>
+      
       </View>
     );
   }

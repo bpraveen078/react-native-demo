@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, View, Text } from "react-native";
+import { Button, View, Text,TouchableOpacity } from "react-native";
 
 class Home extends React.Component {
   render() {
@@ -15,6 +15,12 @@ class Home extends React.Component {
 
 
         </Button> 
+        <TouchableOpacity
+          
+          onPress={() => this.props.navigation.navigate('DrawerOpen')}
+        >
+          <Text >Open Drawer</Text>
+        </TouchableOpacity>
       </View>
     ); 
   }
